@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Download Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS: adds ready-made styling classes like container, buttons, grids, spacing, etc. -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS file: this is your own design styles for the website -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- Bootstrap JS: enables interactive features like dropdowns, modals, carousels, and responsive behavior -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Your custom JavaScript file: handles page behavior/scripts created by you -->
+    <script src="script.js" defer></script>
+  </head>
+  <body class="home-page">
+    <!-- Header section: this is the top navigation bar for the website -->
+    <header class="topbar">
+      <div class="container nav d-flex flex-wrap align-items-center justify-content-between">
+        <a class="brand" href="index.html" aria-label="WPVANTAGE home">
+          <img
+            class="brand-logo"
+            src="imagess/digial-download-store-site-logo (3).svg"
+            alt="WPVANTAGE"
+          />
+        </a>
+
+        <nav aria-label="Primary Site Navigation">
+          <ul class="nav-links d-flex flex-wrap align-items-center gap-4 list-unstyled">
+            <li><a href="themes.html">Themes</a></li>
+            <li><a href="plugins.html">Plugins</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions d-flex align-items-center gap-3">
+          <a class="sign-in" href="#">Sign In</a>
+          <a class="cart" href="#">
+            <span>$0.00</span>
+            <small>0</small>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero section: the large intro area at the top of the homepage -->
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1>Awesome<br />themes &amp; plugins<br />for WordPress</h1>
+            <p>
+              Easily build a beautiful WordPress website with our premium themes
+              and plugins.
+            </p>
+            <div class="hero-actions d-flex align-items-center gap-3">
+              <a class="button-primary" href="plugins.html">Explore our products</a>
+              <a class="button-secondary" href="about.html">Why choose us?</a>
+            </div>
+
+          </div>
+
+          <div class="hero-visual" aria-label="Website preview">
+            <img
+              src="imagess/digital-download-store-hero-image (1).png"
+              alt="WordPress theme preview displayed on desktop and mobile"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Intro section: explains the brand and gives trust/social proof -->
+      <section class="section intro">
+        <div class="container intro-layout">
+          <div class="intro-heading">
+            <h2 class="section-title intro-title">
+              WP Vantage is a complete solutions to make it easy for anyone to
+              create awesome WordPress websites.
+            </h2>
+
+            <div class="rating-boxes">
+              <div class="rating-box">
+                <img src="imagess/digital-download-store-wp-logo (1).png" alt="WordPress" />
+                <div class="rating-details">
+                  <div class="stars" aria-label="5 stars"></div>
+                  <span>4.9 of 5 (4800 reviews)</span>
+                </div>
+              </div>
+              <span class="rating-divider" aria-hidden="true"></span>
+              <div class="rating-box">
+                <img src="imagess/digital-download-store-trustpilot-logo (1).png" alt="Trustpilot" />
+                <div class="rating-details">
+                  <div class="stars" aria-label="5 stars"></div>
+                  <span>5 of 5 (1655 reviews)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="play-video" aria-label="Watch product video">
+            <button class="play-button" aria-label="Play video">▶</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features section: highlights product advantages and benefits -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title text-center mx-auto mb-5 w-75">
+            Why people loves us
+          </h2>
+          <div class="feature-grid row row-cols-2 row-cols-lg-3 g-2">
+            <article class="card">
+              <div class="feature-icon">⚙</div>
+              <h4>Easy to setup</h4>
+              <p>
+                Auctor mauris quis viverra dictum sed in euismod id nunc, nulla
+                ut nunc sed sed accumsan, magnis bibendum viverra suspendisse.
+              </p>
+            </article>
+            <article class="card">
+              <div class="feature-icon">▣</div>
+              <h4>500+ pre-built websites</h4>
+              <p>
+                Vitae netus nisi, vitae augue duis eu accumsan ut phasellus sit
+                tempor habitasse leo hendrerit amet laoreet ornare posuere
+                justo.
+              </p>
+            </article>
+            <article class="card">
+              <div class="feature-icon">✦</div>
+              <h4>Customize without code</h4>
+              <p>
+                Egestas aliquam, enim at consectetur ullamcorper blandit at
+                nisi, viverra sed nullam nisl, lectus est viverra ultrices
+                accumsan viverra vel.
+              </p>
+            </article>
+            <article class="card">
+              <div class="feature-icon">↻</div>
+              <h4>Regular updates</h4>
+              <p>
+                Vulputate viverra dui condimentum ornare aenean id vitae nulla
+                diam, pharetra ac maecenas in et posuere in vivamus vulputate.
+              </p>
+            </article>
+            <article class="card">
+              <div class="feature-icon">⚡</div>
+              <h4>Super fast performance</h4>
+              <p>
+                Sit sit ultrices aliquam aliquam amet, facilisis elit tortor in
+                id tellus tempor, non ullamcorper accumsan, viverra posuere
+                aliquam.
+              </p>
+            </article>
+            <article class="card">
+              <div class="feature-icon">✉</div>
+              <h4>Outstanding support</h4>
+              <p>
+                Scelerisque odio id urna, nibh feugiat eu amet, interdum quis eu
+                accumsan, mi mattis feugiat iaculis vitae tempus phasellus
+                adipiscing.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products section: shows featured items for sale -->
+      <section class="section">
+        <div class="container">
+          <div class="section-header d-flex align-items-end justify-content-between gap-3 mb-4">
+            <h2 class="section-title m-0">Our themes</h2>
+            <a href="themes.html">View all themes</a>
+          </div>
+          <div class="product-grid row row-cols-3 row-cols-md-2 row-cols-lg-3 g-2 g-lg-4">
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-themes-product-featured-image-06-380x265.jpg"
+                alt="Lotus Spa"
+              />
+              <div class="product-info">
+                <h3>Lotus Spa</h3>
+                <div class="product-price">$19.00</div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-theme-product-featured-image-5.jpg"
+                alt="Coffee Shop"
+              />
+              <div class="product-info">
+                <h3>Coffee Shop</h3>
+                <div class="product-price">$39.00</div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-theme-product-featured-image-4-380x265.jpg"
+                alt="Steak House"
+              />
+              <div class="product-info">
+                <h3>Steak House</h3>
+                <div class="product-price">$29.00</div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-theme-product-featured-image-9-380x265.jpg"
+                alt="Baby Store"
+              />
+              <div class="product-info">
+                <h3>Baby Store</h3>
+                <div class="product-price">$39.00</div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-theme-product-featured-image-8-380x265.jpg"
+                alt="Pet Lover"
+              />
+              <div class="product-info">
+                <h3>Pet Lover</h3>
+                <div class="product-price">$29.00</div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-theme-product-featured-image-7-380x265.jpg"
+                alt="Yoga Studio"
+              />
+              <div class="product-info">
+                <h3>Yoga Studio</h3>
+                <div class="product-price">$19.00</div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-theme-product-featured-image-1-380x265.jpg"
+                alt="Brand Store"
+              />
+              <div class="product-info">
+                <h3>Brand Store</h3>
+                <div class="product-price">$39.00</div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-theme-product-featured-image-2-380x265.jpg"
+                alt="Outdoor Adventure"
+              />
+              <div class="product-info">
+                <h3>Outdoor Adventure</h3>
+                <div class="product-price">$29.00</div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-theme-product-featured-image-3-380x265.jpg"
+                alt="Love Nature"
+              />
+              <div class="product-info">
+                <h3>Love Nature</h3>
+                <div class="product-price">$29.00</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title m-0">Our plugins</h2>
+            <a href="plugins.html">View all plugins</a>
+          </div>
+          <div class="product-grid plugin-grid row row-cols-3 row-cols-md-2 row-cols-lg-3 g-2 g-lg-4">
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-plugin-product-featured-image-1-380x265.jpg"
+                alt="Gutenberg Blocks"
+              />
+              <div class="product-info">
+                <h3>Gutenberg Blocks</h3>
+                <div class="product-price">$9.00</div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-plugin-product-featured-image-2-380x265.jpg"
+                alt="Ultimate Elementor"
+              />
+              <div class="product-info">
+                <h3>Ultimate Elementor</h3>
+                <div class="product-price">$14.00</div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                src="imagess/digital-download-store-plugin-product-featured-image-3-380x265.jpg"
+                alt="Starter Templates 3.0"
+              />
+              <div class="product-info">
+                <h3>Starter Templates 3.0</h3>
+                <div class="product-price">$24.00</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section highlight">
+        <div class="container highlight-outer">
+          <div class="highlight-intro d-flex align-items-end justify-content-between gap-3">
+            <div class="highlight-copy-block">
+              <h2 class="highlight-title">
+                We bring innovation and creative freedom<br />
+                to the WordPress ecosystem
+              </h2>
+              <p class="highlight-text">
+                Sapien sagittis interdum quisque urna luctus eget morbi vivamus
+                eget cras scelerisque lectus proin aliquam erat pellentesque
+                pellentesque sed lectus volutpat semper pellentesque aliquam in
+                metus.
+              </p>
+            </div>
+            <button class="highlight-btn" type="button">Customize</button>
+          </div>
+
+          <div class="stats-row highlight-stats">
+            <div class="stat-box stat-box-dark">
+              <strong>2.4M+</strong>
+              <p class="label">License sold</p>
+            </div>
+            <div class="stat-box stat-box-dark">
+              <strong>12M+</strong>
+              <p class="label">End users</p>
+            </div>
+            <div class="stat-box stat-box-dark">
+              <strong>5K+</strong>
+              <p class="label">5 stars rating</p>
+            </div>
+            <div class="stat-box stat-box-dark">
+              <strong>12</strong>
+              <p class="label">Years on market</p>
+            </div>
+          </div>
+
+          <div class="highlight-shell row align-items-center g-4 g-lg-5">
+            <div class="col-12 col-lg-5">
+              <div class="spotlight-visual">
+                <img
+                  class="spotlight-photo"
+                  src="imagess/digital-download-store-testimonial-image.jpg"
+                  alt="Customer testimonial portrait"
+                />
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-7">
+              <div class="spotlight-copy">
+                <div class="brand-badge">
+                  <span class="brand-badge-mark" aria-hidden="true"></span>
+                  <span>Logoipsum</span>
+                </div>
+
+                <h3 class="spotlight-headline">
+                  Top WordPress theme because not only does it look great, but it’s
+                  also optimized for performance.
+                </h3>
+
+                <p class="spotlight-text">
+                  Habitant faucibus sollicitudin fames quam scelerisque amet urna
+                  non risus diam netus pellentesque ac sit malesuada risus nisi,
+                  aliquet rutrum scelerisque cras habitant lorem tortor sit mauris
+                  eu ac id enim urna, adipiscing convallis viverra egestas.
+                </p>
+
+                <div class="spotlight-author">
+                  <strong>Chris Greenfelder</strong>
+                  <span>Founder WPBiz</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="container">
+          <div class="testimonial-summary">
+            <div class="stars-row">★★★★★</div>
+            <div class="rating-copy">
+              <h4>Excellent 4.9 of 5 stars rating</h4>
+              <p>Based on 5,000+ real users reviews</p>
+            </div>
+          </div>
+
+          <div class="testimonial-grid row row-cols-3 row-cols-sm-1 row-cols-lg-2 g-2 g-lg-4">
+            <article class="testimonial-item">
+              <div class="quote-mark">“</div>
+              <div>
+                <p class="quote-text">
+                  Adipiscing vestibulum, nec augue orci est est dui nulla
+                  imperdiet diam habitant consequat hac.
+                </p>
+                <div class="person">
+                  <img
+                    src="imagess/digital-download-store-testimonial-avatar-2.jpg"
+                    alt="Julia Keys"
+                  />
+                  <div>
+                    <strong>Julia Keys</strong>
+                    <span>Designer</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-item">
+              <div class="quote-mark">“</div>
+              <div>
+                <p class="quote-text">
+                  Adipiscing vestibulum, nec augue orci est est dui nulla
+                  imperdiet diam habitant consequat hac.
+                </p>
+                <div class="person">
+                  <img
+                    src="imagess/digital-download-store-testimonial-avatar-3.jpg"
+                    alt="Francis Fadel"
+                  />
+                  <div>
+                    <strong>Francis Fadel</strong>
+                    <span>Designer</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-item">
+              <div class="quote-mark">“</div>
+              <div>
+                <p class="quote-text">
+                  Adipiscing vestibulum, nec augue orci est est dui nulla
+                  imperdiet diam habitant consequat hac.
+                </p>
+                <div class="person">
+                  <img
+                    src="imagess/digital-download-store-testimonial-avatar-4.jpg"
+                    alt="Lawrence Mills"
+                  />
+                  <div>
+                    <strong>Lawrence Mills</strong>
+                    <span>Designer</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-item">
+              <div class="quote-mark">“</div>
+              <div>
+                <p class="quote-text">
+                  Adipiscing vestibulum, nec augue orci est est dui nulla
+                  imperdiet diam habitant consequat hac.
+                </p>
+                <div class="person">
+                  <img
+                    src="imagess/digital-download-store-testimonial-avatar-5.jpg"
+                    alt="Sophia Hegmann"
+                  />
+                  <div>
+                    <strong>Sophia Hegmann</strong>
+                    <span>Designer</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-item">
+              <div class="quote-mark">“</div>
+              <div>
+                <p class="quote-text">
+                  Adipiscing vestibulum, nec augue orci est est dui nulla
+                  imperdiet diam habitant consequat hac.
+                </p>
+                <div class="person">
+                  <img
+                    src="imagess/digital-download-store-testimonial-avatar-6.jpg"
+                    alt="Tommie Lakin"
+                  />
+                  <div>
+                    <strong>Tommie Lakin</strong>
+                    <span>Designer</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-item">
+              <div class="quote-mark">“</div>
+              <div>
+                <p class="quote-text">
+                  Adipiscing vestibulum, nec augue orci est est dui nulla
+                  imperdiet diam habitant consequat hac.
+                </p>
+                <div class="person">
+                  <img
+                    src="imagess/digital-download-store-testimonial-avatar-1 (1).jpg"
+                    alt="Jeanette Koss"
+                  />
+                  <div>
+                    <strong>Jeanette Koss</strong>
+                    <span>Designer</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section resources">
+        <div class="container">
+          <h2 class="section-title mb-5">
+            Free WordPress resources &amp; support
+          </h2>
+          <div class="resource-grid row row-cols-2 row-cols-lg-3 g-2 g-lg-4">
+            <article class="resource-card">
+              <div class="resource-header">
+                <div class="resource-icon">⌁</div>
+                <div>
+                  <h4>User-friendly documentation</h4>
+                </div>
+              </div>
+              <p>
+                Eget id dis volutpat tellus id cursus nisi vitae vitae pulvinar.
+              </p>
+              <a href="#" class="resource-link">Documentation →</a>
+            </article>
+            <article class="resource-card">
+              <div class="resource-header">
+                <div class="resource-icon">✎</div>
+                <div>
+                  <h4>The latest tutorials &amp; product news</h4>
+                </div>
+              </div>
+              <p>
+                Gravida neque aliquam montes, eu congue purus senectus risus.
+              </p>
+              <a href="#" class="resource-link">Visit our blog →</a>
+            </article>
+            <article class="resource-card">
+              <div class="resource-header">
+                <div class="resource-icon">✆</div>
+                <div>
+                  <h4>See what’s coming next at WP Vantage</h4>
+                </div>
+              </div>
+              <p>
+                Convallis sit etiam ultrices odio at in ut adipiscing ipsum.
+              </p>
+              <a href="#" class="resource-link">Update log →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container">
+          <div class="cta-box">
+            <div>
+              <h2>Start building awesome websites</h2>
+              <p>
+                Join over 12,653,898 of customers that already building amazing
+                websites
+              </p>
+            </div>
+            <a class="button-primary" href="themes.html">Explore our products</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid row row-cols-4 row-cols-md-4 g-1">
+          <div class="footer-col">
+            <h5>Company</h5>
+            <ul>
+              <li><a href="themes.html">Themes</a></li>
+              <li><a href="plugins.html">Plugins</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Products</h5>
+            <ul>
+              <li><a href="themes.html">Themes</a></li>
+              <li><a href="plugins.html">Plugins</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Terms</h5>
+            <ul>
+              <li><a href="themes.html">Themes</a></li>
+              <li><a href="plugins.html">Plugins</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Support</h5>
+            <ul>
+              <li><a href="themes.html">Themes</a></li>
+              <li><a href="plugins.html">Plugins</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span class="home-footer-brand">WPVANTAGE</span>
+          <span>© 2026 Digital Download Store. Powered by Digital Download Store.</span>
+          <span class="home-footer-payments">VISA　●●　stripe　PayPal</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

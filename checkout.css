@@ -1,0 +1,270 @@
+.checkout-hero {
+  background: linear-gradient(180deg, #eef3ff 0%, #f8f9fd 100%);
+  padding: 70px 0 58px;
+}
+
+.checkout-page-main .archive-banner {
+  padding-bottom: 58px;
+}
+
+.checkout-empty {
+  min-height: 280px;
+  padding-top: 54px;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.checkout-cart-summary {
+  max-width: 640px;
+  padding: 28px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--heading);
+}
+
+.checkout-cart-summary p {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.checkout-cart-summary h2 {
+  margin: 24px 0;
+  font-size: 1.35rem;
+}
+
+.checkout-details {
+  width: min(100%, 860px);
+  margin-left: max(20px, calc((100% - 1200px) / 2));
+  padding: 48px 30px 76px;
+  background: #fff;
+}
+
+.checkout-details h2 {
+  margin: 0 0 20px;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.checkout-table-wrap {
+  overflow-x: auto;
+}
+
+.checkout-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #33445b;
+}
+
+.checkout-table th,
+.checkout-table td {
+  border: 1px solid #dce0e5;
+  padding: 14px 22px;
+  text-align: left;
+}
+
+.checkout-table th {
+  font-weight: 600;
+}
+
+.checkout-table td:nth-child(2),
+.checkout-table th:nth-child(2),
+.checkout-table td:nth-child(3),
+.checkout-table th:nth-child(3) {
+  text-align: center;
+}
+
+.checkout-table tfoot td {
+  text-align: right;
+}
+
+.checkout-table img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.remove-item {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--heading);
+  cursor: pointer;
+  font: inherit;
+}
+
+.personal-info {
+  margin-top: 26px;
+  border: 1px solid #dce0e5;
+}
+
+.personal-info h3 {
+  margin: 0;
+  padding: 14px 24px;
+  border-bottom: 1px solid #dce0e5;
+  color: #33445b;
+  font-size: 1.25rem;
+}
+
+.personal-field {
+  padding: 10px 24px 4px;
+}
+
+.personal-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: #33445b;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.personal-field label span {
+  color: #b74343;
+}
+
+.personal-field em {
+  margin-left: 8px;
+  color: #8b96a4;
+  font-weight: 400;
+}
+
+.personal-field input {
+  width: 100%;
+  border: 1px solid #dce0e5;
+  padding: 13px 12px;
+  font: inherit;
+}
+
+.checkout-error {
+  margin: 16px 0 6px;
+  padding: 14px 24px;
+  background: #f4dcdc;
+  color: #b74343;
+  line-height: 1.5;
+}
+
+.purchase-total {
+  padding: 12px 24px;
+  border: 1px solid #dce0e5;
+  color: #33445b;
+}
+
+.checkout-hero h1 {
+  margin: 0 0 14px;
+  font-size: clamp(2.6rem, 5vw, 4.2rem);
+}
+
+.checkout-hero p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.checkout-content {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 28px;
+  padding-top: 58px;
+  padding-bottom: 90px;
+}
+
+.checkout-form {
+  display: grid;
+  gap: 22px;
+}
+
+.checkout-panel {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 12px 28px rgba(16, 24, 40, 0.04);
+}
+
+.checkout-panel h2 {
+  margin: 0 0 22px;
+  font-size: 1.45rem;
+}
+
+.checkout-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.checkout-fields label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.checkout-fields input {
+  width: 100%;
+  border: 1px solid rgba(18, 26, 44, 0.14);
+  border-radius: 9px;
+  padding: 12px 13px;
+  font: inherit;
+}
+
+.checkout-fields input:focus {
+  outline: 0;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(45, 110, 246, 0.12);
+}
+
+.field-full {
+  grid-column: 1 / -1;
+}
+
+.checkout-submit {
+  justify-self: start;
+  border: 0;
+}
+
+.checkout-message {
+  margin: 0;
+  color: var(--success);
+  font-weight: 700;
+}
+
+.order-summary {
+  align-self: start;
+  position: sticky;
+  top: 110px;
+}
+
+.order-item,
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(18, 26, 44, 0.09);
+}
+
+.order-item small {
+  color: var(--muted);
+}
+
+.order-total {
+  margin-top: 10px;
+  border-bottom: 0;
+  font-size: 1.15rem;
+}
+
+.empty-order {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.continue-shopping {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--primary);
+  font-weight: 700;
+}

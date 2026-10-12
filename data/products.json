@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Lotus Spa",
+    "price": 19,
+    "image": "imagess/digital-download-store-themes-product-featured-image-06-380x265.jpg",
+    "type": "theme",
+    "descriptionOne": "Build a beautiful WordPress website faster with a professionally designed, easy-to-customize digital product.",
+    "descriptionTwo": "Get a flexible layout, polished design, and helpful features created for real-world websites.",
+    "features": [
+      "Custom logo and favicon support",
+      "Google Maps support",
+      "100% SEO support",
+      "Social media icons",
+      "Built-in breadcrumbs",
+      "Cross browser compatible"
+    ]
+  },
+  {
+    "name": "Coffee Shop",
+    "price": 39,
+    "image": "imagess/digital-download-store-theme-product-featured-image-5.jpg",
+    "type": "theme",
+    "descriptionOne": "Habitant faucibus sollicitudin fames quam scelerisque amet urna non risus diam netus pellentesque ac sit malesuada risus nisi, aliquet rutrum scelerisque cras habitant lorem tortor sit mauris eu ac id enim urna, adipiscing convallis viverra egestas.",
+    "descriptionTwo": "Sapien sagittis interdum quisque urna luctus eget morbi vivamus eget cras scelerisque lectus proin aliquam erat pellentesque pellentesque sed lectus volutpat semper pellentesque aliquam in metus.",
+    "features": [
+      "Custom logo & favicon support",
+      "Google Maps support",
+      "100% SEO support",
+      "Grid based layout",
+      "Social media icons",
+      "Built-in breadcrumbs",
+      "HTML5 / CSS3",
+      "Cross browser compatible"
+    ]
+  },
+  {
+    "name": "Steak House",
+    "price": 29,
+    "image": "imagess/digital-download-store-theme-product-featured-image-4-380x265.jpg",
+    "type": "theme"
+  },
+  {
+    "name": "Baby Store",
+    "price": 39,
+    "image": "imagess/digital-download-store-theme-product-featured-image-9-380x265.jpg",
+    "type": "theme"
+  },
+  {
+    "name": "Pet Lover",
+    "price": 29,
+    "image": "imagess/digital-download-store-theme-product-featured-image-8-380x265.jpg",
+    "type": "theme"
+  },
+  {
+    "name": "Yoga Studio",
+    "price": 19,
+    "image": "imagess/digital-download-store-theme-product-featured-image-7-380x265.jpg",
+    "type": "theme"
+  },
+  {
+    "name": "Brand Store",
+    "price": 39,
+    "image": "imagess/digital-download-store-theme-product-featured-image-1-380x265.jpg",
+    "type": "theme"
+  },
+  {
+    "name": "Outdoor Adventure",
+    "price": 29,
+    "image": "imagess/digital-download-store-theme-product-featured-image-2-380x265.jpg",
+    "type": "theme"
+  },
+  {
+    "name": "Love Nature",
+    "price": 29,
+    "image": "imagess/digital-download-store-theme-product-featured-image-3-380x265.jpg",
+    "type": "theme"
+  },
+  {
+    "name": "Gutenberg Blocks",
+    "price": 9,
+    "image": "imagess/digital-download-store-plugin-product-featured-image-1-380x265.jpg",
+    "type": "plugin"
+  },
+  {
+    "name": "Ultimate Elementor",
+    "price": 14,
+    "image": "imagess/digital-download-store-plugin-product-featured-image-2-380x265.jpg",
+    "type": "plugin"
+  },
+  {
+    "name": "Starter Templates 3.0",
+    "price": 24,
+    "image": "imagess/digital-download-store-plugin-product-featured-image-3-380x265.jpg",
+    "type": "plugin"
+  }
+]
